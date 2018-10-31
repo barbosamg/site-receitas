@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+   }
+
+::-webkit-scrollbar { width: 10px; height: 10px; -webkit-border-radius: 16px; } ::-webkit-scrollbar-track-piece { background-color: #ffffff; -webkit-border-radius: 3px; } ::-webkit-scrollbar-thumb:vertical { height: 5px; background-color: #666; -webkit-border-radius: 3px; } ::-webkit-scrollbar-thumb:horizontal { width: 5px; background-color: #666; -webkit-border-radius: 3px; }
+
+body {
+    font-family: 'Tajawal', sans-serif;;
+    font-size: 16px;
+    background-color: #f5f5f5;
+}
+header{
+    display: block;
+    height: 400px;
+    background: url("../img/receitas.jpg") top center no-repeat;
+}
+.logo{
+    height: 50%;
+}
+
+header h1 {
+    padding: 100px 0 0;
+    color:aliceblue;
+    text-align: center;
+    display: block;
+    clear: both;
+}
+
+header img{
+    padding-left: 10px;
+    float: left;
+    width: 200px;
+}
+
+header h1 small{
+    font-family: cursive;
+    color:white;
+    color:antiquewhite;
+}
+header nav li{
+    padding-top: 20px;
+    text-align: center;
+    display: inline-block;
+    list-style:none;
+    margin: 22px;  
+}
+header nav li a:hover{
+    color: black;
+}
+header nav ul{
+    float: right;
+    list-style: none;
+    width: 35%;
+}
+header nav ul a{
+    text-decoration: none;
+    color: #980000;
+    font-weight: 600;
+    padding: 10px;
+}
+header nav ul a:hover{
+    color: #fff;
+    background-color: #d06900;
+    padding: 10px;
+}
+header nav{
+    background: rgba(255,255,255,0.7);
+    overflow: auto;
+}
+h2{
+    color:#FF8247;
+}
+
+h3{
+    color: #8B0000;
+    text-align: center;
+}
+hr{
+    color: aqua;
+}
+main{
+    margin-top: 40px;
+    padding: 0 5%;
+    cursor: context-menu;
+}
+main p{
+    text-align: justify;
+    padding: 20px 0;
+}
+main h2{
+    text-align: center;
+}
+main .imagem{
+    text-align: center;
+    width: 35%;
+    transform: translateX(100%);
+    display: block;
+    position: relative;
+    margin-bottom: 15px;
+    cursor: context-menu;
+}
+main .imagem:hover{
+    -webkit-box-shadow: 0px 3px 11px 2px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 3px 11px 2px rgba(0,0,0,0.35);
+    box-shadow: 0px 3px 11px 2px rgba(0,0,0,0.35);
+}
+.linha{
+    display: flex;
+}
+aside{
+    max-width:45%;
+    margin: 20px 2%;
+    display: inline-block;
+    background: rgba(255, 118, 0, 0.4);
+    padding: 15px 0 0;
+}
+.fundo-texto{
+    background-color: #ff7600;
+    padding: 10px 15px 0;
+    min-height: 160px;
+}
+.fundo-texto:hover{
+    -webkit-box-shadow: 0px 3px 11px 2px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 3px 11px 2px rgba(0,0,0,0.35);
+    box-shadow: 0px 3px 11px 2px rgba(0,0,0,0.35);
+}
+.fundo-texto p{
+    color: #fff;
+}
+a{
+    text-decoration: none;
+}
+#secao-2{
+    position: relative;
+}
+.secao-2{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+    background: #f5f5f5;
+}
+.secao-2 h2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 45px;
+    color: red;
+}
+.secao-2 h5{
+    font-size: 20px;
+}
+.secao-2 .utensilios{
+    color: orange;
+}
+.area{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+}
+.img-footer{
+    width:100%;
+    position: absolute;
+    bottom:-800px;
+    left: 0;
+}
+#secao-3{
+    position: relative;
+    bottom: -250px !important;
+}
+.formulario input{
+    margin: 10px 0px 15px;
+    clear: both;
+    float: left;
+    width: 300px;
+}
+.ipt{
+    height: 20px;
+    padding: 2px;
+}
+.formulario label{
+    float: left;
+    width: 200px;
+    clear: both;
+}
+textarea{
+    clear: both;
+    float: left;
+    width: 300px;
+}
+fieldset{
+    padding: 10px 20px 50px;
+}
+.chk{
+    width: 25px !important;
+}
+.btn-enviar{
+    border: 1px solid #34bb2b;
+    background-color: #34bb2b;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 25px;
+    color: #fff;
+}
+.btn-enviar:hover{
+    border: 1px solid #53d649;
+    background-color: #53d649;
+}
+.btn-cancelar{
+    border: 1px solid #da2525;
+    background-color: #da2525;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 25px;
+    color: #fff;
+}
+.btn-cancelar:hover{
+    border: 1px solid #f54343;
+    background-color: #f54343;
+}

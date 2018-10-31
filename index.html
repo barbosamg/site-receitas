@@ -1,0 +1,215 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <!--<meta charset="ISO-8859-1"/>-->
+    <meta charset="utf-8" />
+    <meta name="keywords" content="receitas,salgados,doces,refeição,cozinhar" />
+    <meta name="description" content="As Melhores Receitas de Restaurante" />
+    <title>ReceitasWeb - As Melhores Receitas de Restaurante</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function(){
+            descer = function(){
+                $('#secao-3').animate({bottom:'0px'})
+            }
+        }) ;
+    </script>
+</head>
+
+<body>
+    <!-- cabecalho -->
+    <header>
+        <!-- menu -->
+        <nav>
+            <a href="index.html">
+                <img src="img/logo.png" />
+            </a>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Receitas</a>
+                </li>
+                <li>
+                    <a href="#">Dicas</a>
+                </li>
+                <li>
+                    <a onclick="descer()" href="#secao-3">Contato</a>
+                </li>
+            </ul>
+        </nav>
+        <div>
+
+            <h1>
+                As Melhores Receitas de Restaurante
+                <br>
+                <small>sem mistérios</small>
+            </h1>
+
+        </div>
+
+    </header>
+    <!-- conteudo -->
+    <main>
+        <!-- introducao -->
+        <section>
+            <h2>
+                Uma refeição que vai além da receita!
+            </h2>
+            <p>
+                Mais que os ingredientes e o modo de preparo, boas companhias tornam a refeição mais gostosa e especial. Neste site, apresentamos
+                a Cozinha Experimental da Ajinomoto® – Oficina do Sabor® apresenta os segredos dos chefs e as receitas preparadas
+                por eles. Tudo isso para que você possa reproduzir em casa os pratos servidos em restaurantes e tenha bons
+                momentos, ao redor da mesa, com pessoas queridas. Essa é a forma de a Ajinomoto® estar cada vez mais perto
+                de você, compartilhando técnicas culinárias e dicas fundamentais para uma refeição repleta de sabor e carinho.
+            </p>
+        </section>
+        <!-- receitas -->
+        <section>
+            <h2>
+                Receitas de Restaurantes
+            </h2>
+            <div class="linha">
+                <aside>
+                    <a href="#">
+                        <img class="imagem" src="img/receitas1.jpg" />
+                        <div class="fundo-texto">
+                            <h3>Hambúrguer Caseiro</h3>
+                            <p>
+                                Muito mais que uma fast food, o hambúrguer gourmet entrou na moda e você pode fazê-lo em casa. Aprenda como!
+                            </p>
+                        </div>
+                    </a>
+                </aside>
+
+                <aside>
+                    <a href="#">
+                        <img class="imagem" src="img/receitas4.jpg" />
+                        <div class="fundo-texto">
+                            <h3>Quadradinhos de Tapioca Assados</h3>
+                            <p>
+                                Você sabia que tapioca significa
+                                <em>“aglutinado”</em> em tupi? Essa característica
+                                <em>“aglutinadora”</em> da tapioca é a base desta receita, que é fácil de fazer e ótima para
+                                receber os amigos. Ela foi criada em um restaurante de comida nordestina conhecido internacionalmente.
+                                Experimente!
+                            </p>
+                        </div>
+
+                    </a>
+                </aside>
+            </div>
+            <div class="linha">
+                <aside>
+                    <a href="#">
+                        <img class="imagem" src="img/receitas2.jpg" />
+                        <div class="fundo-texto">
+                            <h3>Hot Roll de Salmão</h3>
+                            <p>
+                                Esta é uma receita muito popular no Brasil, mas foi criada por chefs japoneses nos Estados Unidos. Como o nome diz, o prato
+                                deve ser servido quente!
+                            </p>
+                        </div>
+                    </a>
+                </aside>
+
+                <aside>
+                    <a href="#">
+                        <img class="imagem" src="img/receitas3.jpg" />
+                        <div class="fundo-texto">
+                            <h3>Batata Assada Recheada com Cogumelos</h3>
+                            <p>
+                                O segredo desta receita inglesa está na escolha das batatas, que devem ser grandes e bem novinhas (casca lisa e sem machucados,
+                                com poucos pontinhos).
+                            </p>
+                        </div>
+                    </a>
+                </aside>
+            </div>
+        </section>
+        <!-- cozinha pagina 3 PDF -->
+        <section id="secao-2">
+            <aside class="secao-2">
+                <div>
+                    <h2>Cozinha de chef em casa!</h2>
+                    <p class="utensilios">Utensílios adequados e ingredientes selecionados são a base para uma comida perfeita. Confira aqui uma
+                        lista com os primeiros passos!</p>
+                    <img src="img/secao2/topo-left.png" />
+                </div>
+                <h5>Facas</h5>
+                <p>
+                    Três facas básicas são o suficiente para começar: uma faca grande de chef , para fatiar carnes e peças maiores; uma pequena,
+                    para descascar e cortar frutas e legumes; e uma faca de serra, para cortar pães e tortas. Mantenhas-as
+                    sempre afiadas. Assim, você faz cortes com mais precisão e segurança.
+                </p>
+                <h5>Tábuas</h5>
+                <p>
+                    Evite misturar carnes, peixes ou aves com vegetais na mesma tábua. Lave as tábuas com bucha, sabão e água quente sempre que
+                    for cortar outro alimento e também ao terminar de utilizá-las. As melhores tábuas são as mais fáceis
+                    de limpar, como as de bambu e polietileno.
+                </p>
+            </aside>
+            <aside class="secao-2">
+                <img src="img/secao2/topo-right.png" />
+                <h5>Panelas e frigideiras</h5>
+                <p>
+                    Prefira as mais “grossas” ou pesadas: elas esquentam devagar, mas depois mantêm e transmitem melhor o calor, agilizando e
+                    dando o ponto certo para o preparo dos alimentos. Panelas populares, como as de barro, pedra e ferro,
+                    são excelentes.
+                </p>
+                <img src="img/secao2/topo-right2.png" />
+                <h5>Ingredientes</h5>
+                <p>Quanto mais frescos, melhor. Essa é a regra dos grandes cozinheiros. Dê preferência para as frutas e verduras
+                    da estação e os ingredientes locais. Busque em feiras, sacolões, peixarias, açougues, feiras livres,
+                    empórios e mercados. Aproveite o passeio para conhecer melhor a sua região e estabelecer boas relações
+                    com os comerciantes do seu bairro.</p>
+
+            </aside>
+            <img class="img-footer" src="img/secao2/footer.png" />
+        </section>
+        <section id="secao-3">
+            <form class="formulario">
+                <fieldset>
+                    <label for="lblRemetente">Nome</label>
+                    <input class="ipt" type="text" name="txtRemetente"/>
+
+                    <label for="lblEmail">E-mail</label>
+                    <input class="ipt" type="email" name="txtEmail" />
+
+                    <label for="lblTelefone">Telefone</label>
+                    <input class="ipt" type="number" name="txtTelefone"/>
+
+                    <label for="lblCasado">É casado?</label>
+                    <input class="chk" type="checkbox" name="txtCasado"/>
+
+                    <label>Quantidade de filhos</label>
+                    <input class="ipt" type="number" min="1" max="8" />
+
+                    <label for="lblMensagem">Mensagem</label>
+                    <textarea rows="10"></textarea>
+                    <label>Gênero</label>
+                    <datalist id="listaGenero">
+                        <option value="Masculino" />
+                        <option value="Feminino" />
+                    </datalist>
+                    <input class="ipt" type="text" name="txtGenero" list="listaGenero"/>
+
+                    <input class="btn-enviar" type="submit" name="btnEnviar" value="Enviar"/>
+                    <input class="btn-cancelar" type="reset" value="Cancelar" name="btnLimpar"/>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <!-- rodape -->
+    <footer>
+
+    </footer>
+</body>
+
+</html>
